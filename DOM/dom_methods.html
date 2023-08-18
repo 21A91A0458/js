@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>methods</title>
+</head>
+<body>
+	<h1 id="vv">this is document methods</h1>
+	<h2 id="tt">this is valli</h2>
+	<img id="img_id" src="img.png">
+	<p id="pp">javascript</p>
+	<input type="text" name="" id="ss">
+	<p id="va">please enter name</p>
+	<script type="text/javascript">
+		let head1=document.getElementById("vv").style.color="blue";
+		head1.innerHTML="FSD MRNG Batch"
+		let head2=document.getElementById("tt")//heading2
+		head2.innerText="<p>FSD MRNG Batch</p>"
+		let image=document.getElementById("img_id");
+		image.src="pic1.png";
+		let para=document.getElementById("pp");para.style.color="blue";
+		let ins=document.getElementById("ss");
+		ins.value="valli";ins.style.border="1px solid red";
+		//error msg by using dom method//
+		
+		let pg=document.getElementById("va");pg.style.color="red";
+	</script>
+
+</body>
+</html>
